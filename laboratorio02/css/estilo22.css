@@ -121,11 +121,10 @@ p span{
     border: black 1px solid;
     margin: 2px;
 }
-DEVESCORREGIR EL10
 .flexible10{
     display: flex;
-    flex-flow: row-reverse wrap;
-    background-color: aquamarine;
+    flex-flow: row-reverse;
+    background-color: blueviolet;
 }
 .flexible10 p{
     width: 200px;
