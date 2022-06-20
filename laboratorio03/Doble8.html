@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOBLE ejercicio8</title>
+    <script type="text/javascript">
+        var ht=0, th=0, stot=0, vari=0;
+
+        ht=parseFloat(prompt("cuantas horas trabajas:"));
+        th=parseFloat(prompt("cuanto te pagan por hora:"));
+
+        stot=th*ht;
+        vari=stot;
+
+        if(vari>2400){
+            vari="se te dara un bono de 20% de su sueldo total por bonificacion familiar"
+        }else{
+            vari="se te dara un bono de 10% de su sueldo total por bonificacion familiar"
+        }
+        document.write(""+vari+"<br>");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
